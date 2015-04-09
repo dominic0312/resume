@@ -1,0 +1,284 @@
+@import "compass/css3.scss";
+@import "compass/utilities";
+#vertical-center {
+  padding: 0;
+
+  li {
+    background: #CCC;
+    width: 18em;
+    margin: .5em;
+    height: 25em;
+    text-align: center;
+    vertical-align: text-top;
+    display: inline-block; /* non-flexbox browsers */
+    @include display-flex(inline-flex);
+    @include align-items(center);
+    @include justify-content(center);
+  }
+}
+
+
+
+.border-radius-red {
+  width: 125px;
+  height: 125px;
+  background: red;
+  margin: 20px;
+  float: left;
+  padding: 5px;
+}
+
+.border-radius {
+  @include border-radius(15px);
+}
+
+.status-box{
+
+  height:15em;
+  width:18em;
+
+
+  border:red 1px solid;
+}
+
+
+#content {
+  @include clearfix;
+}
+
+.title {
+  border:blue 1px solid;
+  color:white;
+  height:10em;
+  width:18em;
+}
+
+
+
+.header {
+  width: 100%;
+  height: 100px;
+}
+
+.topbar {
+  height: 27px;
+  background: url(/images/topbar-bg.jpg) 0 0 repeat-x;
+  border-bottom: 1px solid #2e303d;
+  overflow: hidden;
+}
+
+.login-wrap {
+  position: relative;
+  width: 980px;
+  height: 27px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.login-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 27px;
+  line-height: 27px;
+}
+
+.login-info span, .login-info a {
+  display: inline-block;
+  color: #c1c1c1;
+}
+
+.login-info a {
+  text-decoration: none;
+}
+
+.login-info a {
+  display: inline-block;
+  color: #c1c1c1;
+}
+
+.jump-area {
+  margin-right: 30px;
+}
+
+.header-message {
+  margin-right: 30px;
+}
+
+.channelbar {
+  height: 71px;
+  background: url(/images/channel-bg.jpg) 0 0 repeat-x;
+  border-top: 1px solid #5b5e6c;
+
+}
+
+* {
+  box-sizing: content-box;
+}
+
+.cnavbar {
+  float: left;
+  display: inline;
+  margin-left: 90px;
+  overflow: hidden;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.cnavbar li {
+  float: left;
+}
+
+.cnavbar li a {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  height: 71px;
+  line-height: 71px;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+.cnavbar li.selected a {
+  color: #65a2fc;
+}
+
+.cnavbar li.selected {
+  background-color: #2e303d;
+}
+
+.channelbar-wrap {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: content-box;
+
+}
+
+.logo {
+  margin-top: 6px;
+  float: left;
+  font-size: 38px;
+  color:white;
+  padding-left:20px;
+}
+
+.shoot {
+  position: absolute;
+  top: 21px;
+  right: 0;
+  width: 95px;
+  height: 28px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 28px;
+  background-color: #65a2fb;
+  color: #fff;
+  font-size: 13px;
+  border: 1px solid #5499ff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.footerbg {
+  height: 323px;
+  background-color: #313e53;
+  background-image: url(/images/footerbg.jpg);
+  background-repeat: repeat-x;
+}
+
+.footer {
+  width: 1000px;
+  font-size: 14px;
+  margin: 0 auto;
+  line-height: 30px;
+  padding-top: 55px;
+  color: #a5aab3;
+}
+
+.footer_menu2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.f_l {
+  float: left;
+  width: 140px;
+}
+
+.f_l_2 {
+  float: left;
+  text-align: left;
+  width: 405px;
+}
+
+.f_l_3 {
+  float: left;
+  width: 140px;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.clear {
+  clear: both;
+}
+
+.footerdiv1 {
+  float: left;
+  width: 300px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #384559;
+}
+
+.footerdiv2 {
+  float: right;
+  width: 625px;
+  padding-left: 33px;
+  background-image: url(/images/f_icon.jpg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.footerdiv3 {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 0px;
+}
+
+.footer_menu {
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-left: -25px;
+}
+
+.bottombar {
+  height: 27px;
+  background: url(/images/topbar-bg.jpg) 0 0 repeat-x;
+  border-bottom: 1px solid #2e303d;
+  overflow: hidden;
+  text-align:center;
+}
+
+.bottom-info {
+
+  padding-top:3px;
+  position: relative;
+  width: 980px;
+  height: 27px;
+  margin: 0 auto;
+  color:white;
+  overflow: hidden;
+}
+
+body, button {
+  font-family: '微软雅黑','Microsoft Yahei',arial,'Hiragino Sans GB','宋体',\5b8b\4f53,Tahoma,Arial,Helvetica,STHeiti;
+  font-size: 12px;
+}
+
+
+
+

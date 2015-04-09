@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>爱投社</title>
+
+  <%= csrf_meta_tags %>
+</head>
+
+
+<body>
+<div class="header">
+  <div class="topbar">
+    <div class="login-wrap">
+      <div class="login-info">
+        <p class="logined">
+          <a href="/?qt=message" class="header-message" id="js-header-message">消息</a>
+          <a href="/?qt=personalPage">dominic03121</a>
+          <span>|</span>
+          <a href="javascript:void(0);" id="login-out">退出</a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <div class="channelbar">
+    <div class="channelbar-wrap">
+      <p class="logo">
+        <img src="/images/logo.png" width="154" height="54" alt="爱投社">
+      </p>
+      <ul class="cnavbar" id="js-navbar">
+        <li class="selected"><a href="/">主页</a></li>
+        <li><a href="/?qt=show">项目仓库</a></li>
+        <li id="js-ucenter-tab"><a href="javascript:void(0)">虚拟众筹</a></li>
+        <li><a href="/?qt=top">众筹社区</a></li>
+        <li><a href="/?qt=freshpage">我们的愿景</a></li>
+      </ul>
+      <p class="shoot" id="js-shoot"></span>&nbsp&nbsp登录 / 注册</p>
+    </div>
+  </div>
+</div>
+<%= yield %>
+
+</body>
+</html>
