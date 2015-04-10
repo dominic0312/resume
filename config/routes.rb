@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
 
   get 'kick' => 'kick#index'
+  get 'community' => 'community#index'
   root 'home#resume'
 
   # Example of regular route:

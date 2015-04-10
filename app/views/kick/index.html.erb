@@ -1,26 +1,72 @@
 <link href="/stylesheets/common.css" rel="stylesheet">
 <link href="/stylesheets/app.css" rel="stylesheet">
+
 <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
+<div class="header">
+  <div class="topbar">
+    <div class="login-wrap">
+      <div class="login-info">
+        <p class="logined">
+          <a href="/?qt=message" class="header-message" id="js-header-message">消息</a>
+          <a href="/?qt=personalPage">dominic03121</a>
+          <span>|</span>
+          <a href="javascript:void(0);" id="login-out">退出</a>
+        </p>
+      </div>
+    </div>
 
-
-<div class="banner single-item" id="banner-content">
-  <div><img src="/images/banner2s.jpg"></div>
-  <div><img src="/images/banner1s.jpg"></div>
+  </div>
+  <div class="channelbar">
+    <div class="channelbar-wrap">
+      <p class="logo">
+        <img src="/images/logo.png" width="154" height="54" alt="爱投社">
+      </p>
+      <ul class="cnavbar" id="js-navbar">
+        <li class="selected"><a href="/kick">主页</a></li>
+        <li><a href="">项目仓库</a></li>
+        <li id="js-ucenter-tab"><a href="javascript:void(0)">虚拟众筹</a></li>
+        <li><a href="/community">众筹社区</a></li>
+        <li><a href="">我们的愿景</a></li>
+      </ul>
+      <p class="shoot" id="js-shoot"></span>&nbsp&nbsp登录 / 注册</p>
+    </div>
+  </div>
 </div>
-<div id="bg-container" bg='/images/fw.jpg'>
+
+<div class="banner banner-container" id="banner-content">
+
+  <div class="wrap">
+
+
+    <div class="frame" id="centered">
+      <ul class="clearfix">
+        <li class="opacity">0</li>
+        <li class="opacity">1</li>
+        <li class="opacity">2</li>
+        <li class="opacity">3</li>
+        <li class="opacity">4</li>
+        <li class="opacity">5</li>
+        <li class="opacity">6</li>
+        <li class="opacity">7</li>
+        <li class="opacity">8</li>
+        <li class="opacity">10</li>
+        <li class="opacity">11</li>
+        <li class="opacity">12</li>
+        <li class="opacity">13</li>
+        <li class="opacity">14</li>
+
+      </ul>
+    </div>
+
+  </div>
+
+
+</div>
+<div id="bg-container" bg='/images/star.jpg'>
+
   <div class="container">
-    <h1>ddddddddd</h1>
 
-    <h1>ddddddddd</h1>
-
-    <h1>ddddddddd</h1>
-
-    <h1>ddddddddd</h1>
-
-    <h1>ddddddddd</h1>
-
-    <h1>ddddddddd</h1>
 
   </div>
 </div>
@@ -37,11 +83,43 @@
 
 <script src="/javascripts/jquery-191.js"></script>
 <script src="/javascripts/jquery-floatingbg.js"></script>
-<script type="text/javascript" src="/javascripts/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="/slick/slick.min.js"></script>
+<!--<script type="text/javascript" src="/javascripts/jquery-migrate-1.2.1.min.js"></script>-->
+<script type="text/javascript" src="/javascripts/plugins.js"></script>
+<script type="text/javascript" src="/javascripts/sly.min.js"></script>
+
+<!--<script type="text/javascript" src="/slick/slick.min.js"></script>-->
 <script>
     $("#bg-container").MyFloatingBg({direction: 0, speed: 150});
-    $(document).ready(function () {
-        $(".single-item").slick();
+//    $(document).ready(function () {
+//        $(".single-item").slick();
+//    });
+
+    var $frame = $('#centered');
+    var $wrap  = $frame.parent();
+
+    // Call Sly on frame
+    $frame.sly({
+        horizontal: 1,
+        itemNav: 'centered',
+        smart: 1,
+        activateOn: 'click',
+        mouseDragging: 1,
+        touchDragging: 1,
+        releaseSwing: 1,
+        startAt: 2,
+        scrollBar: $wrap.find('.scrollbar'),
+        scrollBy: 1,
+        speed: 300,
+        elasticBounds: 1,
+        easing: 'easeOutExpo',
+        dragHandle: 1,
+        dynamicHandle: 1,
+        clickBar: 1,
+
+        cycleBy:       'pages',  // Enable automatic cycling by 'items' or 'pages'.
+        cycleInterval: 5000,  // Delay between cycles in milliseconds.
+        pauseOnHover:  false
     });
+
+
 </script>

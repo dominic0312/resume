@@ -1,9 +1,9 @@
 @charset "UTF-8";
-/* line 3, ../../compass/sass/common.scss */
+/* line 5, ../../compass/sass/common.scss */
 #vertical-center {
   padding: 0;
 }
-/* line 6, ../../compass/sass/common.scss */
+/* line 8, ../../compass/sass/common.scss */
 #vertical-center li {
   background: #CCC;
   width: 18em;
@@ -22,6 +22,18 @@
 }
 
 /* line 22, ../../compass/sass/common.scss */
+.opacity {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.9;
+}
+
+/* line 26, ../../compass/sass/common.scss */
+.opacity-high {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+
+/* line 30, ../../compass/sass/common.scss */
 .border-radius-red {
   width: 125px;
   height: 125px;
@@ -31,27 +43,27 @@
   padding: 5px;
 }
 
-/* line 31, ../../compass/sass/common.scss */
+/* line 39, ../../compass/sass/common.scss */
 .border-radius {
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
   border-radius: 15px;
 }
 
-/* line 35, ../../compass/sass/common.scss */
+/* line 43, ../../compass/sass/common.scss */
 .status-box {
   height: 15em;
   width: 18em;
   border: red 1px solid;
 }
 
-/* line 45, ../../compass/sass/common.scss */
+/* line 51, ../../compass/sass/common.scss */
 #content {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 49, ../../compass/sass/common.scss */
+/* line 55, ../../compass/sass/common.scss */
 .title {
   border: blue 1px solid;
   color: white;
@@ -59,13 +71,13 @@
   width: 18em;
 }
 
-/* line 58, ../../compass/sass/common.scss */
+/* line 62, ../../compass/sass/common.scss */
 .header {
   width: 100%;
   height: 100px;
 }
 
-/* line 63, ../../compass/sass/common.scss */
+/* line 67, ../../compass/sass/common.scss */
 .topbar {
   height: 27px;
   background: url(/images/topbar-bg.jpg) 0 0 repeat-x;
@@ -73,7 +85,7 @@
   overflow: hidden;
 }
 
-/* line 70, ../../compass/sass/common.scss */
+/* line 74, ../../compass/sass/common.scss */
 .login-wrap {
   position: relative;
   width: 980px;
@@ -82,7 +94,7 @@
   overflow: hidden;
 }
 
-/* line 78, ../../compass/sass/common.scss */
+/* line 82, ../../compass/sass/common.scss */
 .login-info {
   position: absolute;
   top: 0;
@@ -91,46 +103,46 @@
   line-height: 27px;
 }
 
-/* line 86, ../../compass/sass/common.scss */
+/* line 90, ../../compass/sass/common.scss */
 .login-info span, .login-info a {
   display: inline-block;
   color: #c1c1c1;
 }
 
-/* line 91, ../../compass/sass/common.scss */
+/* line 95, ../../compass/sass/common.scss */
 .login-info a {
   text-decoration: none;
 }
 
-/* line 95, ../../compass/sass/common.scss */
+/* line 99, ../../compass/sass/common.scss */
 .login-info a {
   display: inline-block;
   color: #c1c1c1;
 }
 
-/* line 100, ../../compass/sass/common.scss */
+/* line 104, ../../compass/sass/common.scss */
 .jump-area {
   margin-right: 30px;
 }
 
-/* line 104, ../../compass/sass/common.scss */
+/* line 108, ../../compass/sass/common.scss */
 .header-message {
   margin-right: 30px;
 }
 
-/* line 108, ../../compass/sass/common.scss */
+/* line 112, ../../compass/sass/common.scss */
 .channelbar {
   height: 71px;
   background: url(/images/channel-bg.jpg) 0 0 repeat-x;
   border-top: 1px solid #5b5e6c;
 }
 
-/* line 115, ../../compass/sass/common.scss */
+/* line 119, ../../compass/sass/common.scss */
 * {
   box-sizing: content-box;
 }
 
-/* line 119, ../../compass/sass/common.scss */
+/* line 123, ../../compass/sass/common.scss */
 .cnavbar {
   float: left;
   display: inline;
@@ -138,17 +150,17 @@
   overflow: hidden;
 }
 
-/* line 126, ../../compass/sass/common.scss */
+/* line 130, ../../compass/sass/common.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 130, ../../compass/sass/common.scss */
+/* line 134, ../../compass/sass/common.scss */
 .cnavbar li {
   float: left;
 }
 
-/* line 134, ../../compass/sass/common.scss */
+/* line 138, ../../compass/sass/common.scss */
 .cnavbar li a {
   display: block;
   color: #fff;
@@ -159,17 +171,17 @@ ol, ul {
   padding: 0 15px;
 }
 
-/* line 144, ../../compass/sass/common.scss */
+/* line 148, ../../compass/sass/common.scss */
 .cnavbar li.selected a {
   color: #65a2fc;
 }
 
-/* line 148, ../../compass/sass/common.scss */
+/* line 152, ../../compass/sass/common.scss */
 .cnavbar li.selected {
   background-color: #2e303d;
 }
 
-/* line 152, ../../compass/sass/common.scss */
+/* line 156, ../../compass/sass/common.scss */
 .channelbar-wrap {
   position: relative;
   width: 980px;
@@ -178,7 +190,7 @@ ol, ul {
   box-sizing: content-box;
 }
 
-/* line 161, ../../compass/sass/common.scss */
+/* line 165, ../../compass/sass/common.scss */
 .logo {
   margin-top: 6px;
   float: left;
@@ -187,7 +199,7 @@ ol, ul {
   padding-left: 20px;
 }
 
-/* line 169, ../../compass/sass/common.scss */
+/* line 173, ../../compass/sass/common.scss */
 .shoot {
   position: absolute;
   top: 21px;
@@ -205,7 +217,7 @@ ol, ul {
   cursor: pointer;
 }
 
-/* line 186, ../../compass/sass/common.scss */
+/* line 190, ../../compass/sass/common.scss */
 .footerbg {
   height: 323px;
   background-color: #313e53;
@@ -213,7 +225,7 @@ ol, ul {
   background-repeat: repeat-x;
 }
 
-/* line 193, ../../compass/sass/common.scss */
+/* line 197, ../../compass/sass/common.scss */
 .footer {
   width: 1000px;
   font-size: 14px;
@@ -223,26 +235,26 @@ ol, ul {
   color: #a5aab3;
 }
 
-/* line 202, ../../compass/sass/common.scss */
+/* line 206, ../../compass/sass/common.scss */
 .footer_menu2 {
   font-size: 20px;
   margin-bottom: 30px;
 }
 
-/* line 207, ../../compass/sass/common.scss */
+/* line 211, ../../compass/sass/common.scss */
 .f_l {
   float: left;
   width: 140px;
 }
 
-/* line 212, ../../compass/sass/common.scss */
+/* line 216, ../../compass/sass/common.scss */
 .f_l_2 {
   float: left;
   text-align: left;
   width: 405px;
 }
 
-/* line 218, ../../compass/sass/common.scss */
+/* line 222, ../../compass/sass/common.scss */
 .f_l_3 {
   float: left;
   width: 140px;
@@ -250,12 +262,12 @@ ol, ul {
   margin-left: 15px;
 }
 
-/* line 225, ../../compass/sass/common.scss */
+/* line 229, ../../compass/sass/common.scss */
 .clear {
   clear: both;
 }
 
-/* line 229, ../../compass/sass/common.scss */
+/* line 233, ../../compass/sass/common.scss */
 .footerdiv1 {
   float: left;
   width: 300px;
@@ -264,7 +276,7 @@ ol, ul {
   border-right-color: #384559;
 }
 
-/* line 237, ../../compass/sass/common.scss */
+/* line 241, ../../compass/sass/common.scss */
 .footerdiv2 {
   float: right;
   width: 625px;
@@ -274,21 +286,21 @@ ol, ul {
   background-position: left bottom;
 }
 
-/* line 246, ../../compass/sass/common.scss */
+/* line 250, ../../compass/sass/common.scss */
 .footerdiv3 {
   text-align: center;
   margin-top: 45px;
   margin-bottom: 0px;
 }
 
-/* line 252, ../../compass/sass/common.scss */
+/* line 256, ../../compass/sass/common.scss */
 .footer_menu {
   font-size: 20px;
   margin-bottom: 30px;
   margin-left: -25px;
 }
 
-/* line 258, ../../compass/sass/common.scss */
+/* line 262, ../../compass/sass/common.scss */
 .bottombar {
   height: 27px;
   background: url(/images/topbar-bg.jpg) 0 0 repeat-x;
@@ -297,7 +309,7 @@ ol, ul {
   text-align: center;
 }
 
-/* line 266, ../../compass/sass/common.scss */
+/* line 270, ../../compass/sass/common.scss */
 .bottom-info {
   padding-top: 3px;
   position: relative;
@@ -308,8 +320,239 @@ ol, ul {
   overflow: hidden;
 }
 
-/* line 277, ../../compass/sass/common.scss */
+/* line 281, ../../compass/sass/common.scss */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+/* line 288, ../../compass/sass/common.scss */
+.banner-container {
+  background: url(/images/banner2s.jpg);
+}
+
+/* line 292, ../../compass/sass/common.scss */
+.bg-container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+  display: inline-block;
+}
+
+/********************************* CSS FROM SLY */
+/* Example wrapper */
+/* line 303, ../../compass/sass/common.scss */
+.wrap {
+  position: relative;
+  margin: 3em 0;
+}
+
+/* Frame */
+/* line 309, ../../compass/sass/common.scss */
+.frame {
+  height: 270px;
+  line-height: 250px;
+  overflow: hidden;
+}
+
+/* line 315, ../../compass/sass/common.scss */
+.frame ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 50px;
+}
+
+/* line 323, ../../compass/sass/common.scss */
+.frame ul li {
+  float: left;
+  width: 357px;
+  height: 100%;
+  margin: 0 1px 0 0;
+  padding: 0;
+  background: #333;
+  color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 335, ../../compass/sass/common.scss */
+.frame ul li.active {
+  color: #fff;
+  background: #a03232;
+}
+
+/* Scrollbar */
+/* line 342, ../../compass/sass/common.scss */
+.scrollbar .handle {
+  width: 100px;
+  height: 100%;
+  background: #292a33;
+  cursor: pointer;
+}
+
+/* line 349, ../../compass/sass/common.scss */
+.scrollbar .handle .mousearea {
+  position: absolute;
+  top: -9px;
+  left: 0;
+  width: 100%;
+  height: 20px;
+}
+
+/* Pages */
+/* line 358, ../../compass/sass/common.scss */
+.pages {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* line 366, ../../compass/sass/common.scss */
+.pages li {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: 0 4px;
+  text-indent: -999px;
+  border-radius: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  background: grey;
+  margin-right: 10px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+/* line 381, ../../compass/sass/common.scss */
+.pages li:hover {
+  background: #aaa;
+}
+
+/* line 385, ../../compass/sass/common.scss */
+.pages li.active {
+  background: #666;
+}
+
+/* line 389, ../../compass/sass/common.scss */
+.left-menu {
+  width: 150px;
+  float: left;
+}
+
+/* line 395, ../../compass/sass/common.scss */
+.right-area {
+  margin-left: 160px;
+}
+
+/* line 400, ../../compass/sass/common.scss */
+.left-menu .item {
+  width: 157px;
+  height: 14em;
+  line-height: 10em;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 414, ../../compass/sass/common.scss */
+.left-menu .item-red {
+  background: #a03232;
+  color: white;
+}
+
+/* line 420, ../../compass/sass/common.scss */
+.left-menu .item-grey {
+  background: grey;
+  color: #ddd;
+}
+
+/* line 426, ../../compass/sass/common.scss */
+.left-menu h2 {
+  margin-top: 2.5em;
+}
+
+/* line 430, ../../compass/sass/common.scss */
+.left-menu .item-black {
+  background: black;
+  color: #ddd;
+}
+
+/* Controls */
+/* line 443, ../../compass/sass/common.scss */
+.controls {
+  margin: 25px 0;
+  text-align: center;
+}
+
+/* One Item Per Frame example*/
+/* line 449, ../../compass/sass/common.scss */
+.oneperframe {
+  height: 300px;
+  line-height: 300px;
+}
+
+/* line 454, ../../compass/sass/common.scss */
+.oneperframe ul li {
+  width: 1140px;
+}
+
+/* line 458, ../../compass/sass/common.scss */
+.oneperframe ul li.active {
+  background: #333;
+}
+
+/*********************************END OF CSS FROM SLY */
+/*********************************Start OF grids FROM ed-lea */
+/* line 465, ../../compass/sass/common.scss */
+.Collage {
+  padding: 10px;
+}
+
+/* line 469, ../../compass/sass/common.scss */
+.Collage img {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: bottom;
+  opacity: 1;
+  /*This is where you set the border you want for the image*/
+  border: 6px solid #FFF;
+}
+
+/* line 480, ../../compass/sass/common.scss */
+.Image_Wrapper {
+  /* to get the fade in effect, set opacity to 0 on the first element within the gallery area */
+  opacity: 0;
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 492, ../../compass/sass/common.scss */
+.Caption {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: arial;
+}
+
+/* line 497, ../../compass/sass/common.scss */
+.Caption_Content {
+  /* padding:10px; */
+  color: #FFF;
+  padding: 20px;
+}
+
+/*********************************End OF grids FROM ed-lea */
+/* line 508, ../../compass/sass/common.scss */
 body, button {
-  font-family: '微软雅黑','Microsoft Yahei',arial,'Hiragino Sans GB','宋体',\5b8b\4f53,Tahoma,Arial,Helvetica,STHeiti;
+  font-family: '微软雅黑', 'Microsoft Yahei', arial, 'Hiragino Sans GB', '宋体', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti;
   font-size: 12px;
 }

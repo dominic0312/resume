@@ -1,5 +1,7 @@
 @import "compass/css3.scss";
+@import "compass/css3";
 @import "compass/utilities";
+
 #vertical-center {
   padding: 0;
 
@@ -17,7 +19,13 @@
   }
 }
 
+.opacity {
+  @include opacity(0.9);
+}
 
+.opacity-high {
+  @include opacity(0.8);
+}
 
 .border-radius-red {
   width: 125px;
@@ -32,28 +40,24 @@
   @include border-radius(15px);
 }
 
-.status-box{
+.status-box {
 
-  height:15em;
-  width:18em;
+  height: 15em;
+  width: 18em;
 
-
-  border:red 1px solid;
+  border: red 1px solid;
 }
-
 
 #content {
   @include clearfix;
 }
 
 .title {
-  border:blue 1px solid;
-  color:white;
-  height:10em;
-  width:18em;
+  border: blue 1px solid;
+  color: white;
+  height: 10em;
+  width: 18em;
 }
-
-
 
 .header {
   width: 100%;
@@ -162,8 +166,8 @@ ol, ul {
   margin-top: 6px;
   float: left;
   font-size: 38px;
-  color:white;
-  padding-left:20px;
+  color: white;
+  padding-left: 20px;
 }
 
 .shoot {
@@ -260,22 +264,249 @@ ol, ul {
   background: url(/images/topbar-bg.jpg) 0 0 repeat-x;
   border-bottom: 1px solid #2e303d;
   overflow: hidden;
-  text-align:center;
+  text-align: center;
 }
 
 .bottom-info {
 
-  padding-top:3px;
+  padding-top: 3px;
   position: relative;
   width: 980px;
   height: 27px;
   margin: 0 auto;
-  color:white;
+  color: white;
   overflow: hidden;
 }
 
+.banner {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.banner-container {
+  background: url(/images/banner2s.jpg);
+}
+
+.bg-container{
+  width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+  display: inline-block;
+
+}
+
+/********************************* CSS FROM SLY */
+
+/* Example wrapper */
+.wrap {
+  position: relative;
+  margin: 3em 0;
+}
+
+/* Frame */
+.frame {
+  height: 270px;
+  line-height: 250px;
+  overflow: hidden;
+}
+
+.frame ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 50px;
+}
+
+.frame ul li {
+  float: left;
+  width: 357px;
+  height: 100%;
+  margin: 0 1px 0 0;
+  padding: 0;
+  background: #333;
+  color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.frame ul li.active {
+  color: #fff;
+  background: #a03232;
+}
+
+/* Scrollbar */
+
+.scrollbar .handle {
+  width: 100px;
+  height: 100%;
+  background: #292a33;
+  cursor: pointer;
+}
+
+.scrollbar .handle .mousearea {
+  position: absolute;
+  top: -9px;
+  left: 0;
+  width: 100%;
+  height: 20px;
+}
+
+/* Pages */
+.pages {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+.pages li {
+
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: 0 4px;
+  text-indent: -999px;
+  border-radius: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  background: grey;
+  margin-right: 10px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .2);
+}
+
+.pages li:hover {
+  background: #aaa;
+}
+
+.pages li.active {
+  background: #666;
+}
+
+.left-menu {
+  width:150px;
+  float:left;
+
+}
+
+.right-area{
+  margin-left:160px;
+
+}
+
+.left-menu .item {
+
+  width: 157px;
+  height: 14em;
+
+  line-height:10em;
+
+  overflow:hidden;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.left-menu .item-red{
+  background: #a03232;
+  color: white;
+
+}
+
+.left-menu .item-grey{
+  background: grey;
+  color: #ddd;
+
+}
+
+.left-menu h2{
+  margin-top:2.5em;
+}
+
+.left-menu .item-black{
+  background: black;
+  color: #ddd;
+
+}
+
+.left-menu .title{
+
+}
+
+
+
+   /* Controls */
+.controls {
+  margin: 25px 0;
+  text-align: center;
+}
+
+/* One Item Per Frame example*/
+.oneperframe {
+  height: 300px;
+  line-height: 300px;
+}
+
+.oneperframe ul li {
+  width: 1140px;
+}
+
+.oneperframe ul li.active {
+  background: #333;
+}
+
+/*********************************END OF CSS FROM SLY */
+
+/*********************************Start OF grids FROM ed-lea */
+.Collage{
+  padding:10px;
+}
+
+.Collage img{
+  margin:0;
+  padding:0;
+  display:inline-block;
+  vertical-align:bottom;
+  opacity:1;
+
+  /*This is where you set the border you want for the image*/
+  border:6px solid #FFF;
+}
+
+.Image_Wrapper{
+  /* to get the fade in effect, set opacity to 0 on the first element within the gallery area */
+  opacity:0;
+  -moz-box-shadow:0px 2px 4px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow:0px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow:0px 2px 4px rgba(0, 0, 0, 0.1);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+
+.Caption{
+  font-size:14px;
+  font-weight:normal;
+  font-family:arial;
+}
+.Caption_Content{
+  /* padding:10px; */
+  color:#FFF;
+  padding:20px;
+}
+
+
+/*********************************End OF grids FROM ed-lea */
+
+
+
 body, button {
-  font-family: '微软雅黑','Microsoft Yahei',arial,'Hiragino Sans GB','宋体',\5b8b\4f53,Tahoma,Arial,Helvetica,STHeiti;
+  font-family: '微软雅黑', 'Microsoft Yahei', arial, 'Hiragino Sans GB', '宋体', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti;
   font-size: 12px;
 }
 
