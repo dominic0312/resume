@@ -85,14 +85,18 @@ $susy: (
 }
 
 .ag2by2{
-  @include span(3 of 9);
+  @include span(2 of 9);
   @include clearfix;
+  margin-bottom: gutter(8);
+  margin-right: gutter(8);
   height:20em;
 }
 
 .ag2by4{
-  @include span(6 of 9);
+  @include span(4 of 9);
   @include clearfix;
+  margin-bottom: gutter(8);
+  margin-right: gutter(8);
   height:20em;
 }
 

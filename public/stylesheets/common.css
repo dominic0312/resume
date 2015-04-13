@@ -158,40 +158,44 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 87, ../../compass/sass/common.scss */
 .ag2by2 {
-  width: 32.65306%;
+  width: 21.42857%;
   float: left;
   margin-right: 1.02041%;
   overflow: hidden;
   *zoom: 1;
+  margin-bottom: 1.14943%;
+  margin-right: 1.14943%;
   height: 20em;
 }
 
-/* line 93, ../../compass/sass/common.scss */
+/* line 95, ../../compass/sass/common.scss */
 .ag2by4 {
-  width: 66.32653%;
+  width: 43.87755%;
   float: left;
   margin-right: 1.02041%;
   overflow: hidden;
   *zoom: 1;
+  margin-bottom: 1.14943%;
+  margin-right: 1.14943%;
   height: 20em;
 }
 
-/* line 99, ../../compass/sass/common.scss */
+/* line 103, ../../compass/sass/common.scss */
 .ag-red {
   background-color: #a03232;
 }
 
-/* line 103, ../../compass/sass/common.scss */
+/* line 107, ../../compass/sass/common.scss */
 .ag-grey {
   background-color: grey;
 }
 
-/* line 108, ../../compass/sass/common.scss */
+/* line 112, ../../compass/sass/common.scss */
 .ag-orange {
   background-color: orange;
 }
 
-/* line 112, ../../compass/sass/common.scss */
+/* line 116, ../../compass/sass/common.scss */
 #news {
   margin: 0;
   background-color: black;
@@ -200,46 +204,46 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: white;
 }
 
-/* line 121, ../../compass/sass/common.scss */
+/* line 125, ../../compass/sass/common.scss */
 #news ul {
   margin: 0;
 }
 
-/* line 125, ../../compass/sass/common.scss */
+/* line 129, ../../compass/sass/common.scss */
 #news li {
   text-align: center;
 }
 
-/* line 130, ../../compass/sass/common.scss */
+/* line 134, ../../compass/sass/common.scss */
 .ag1, .ag3 {
   height: 20em;
   background-color: #71dad2;
 }
 
-/* line 136, ../../compass/sass/common.scss */
+/* line 140, ../../compass/sass/common.scss */
 .ag2 {
   height: 20em;
   background-color: #a03232;
 }
 
-/* line 141, ../../compass/sass/common.scss */
+/* line 145, ../../compass/sass/common.scss */
 .ag4, .ag5, .ag8, .ag9 {
   height: 20em;
   background-color: #f09671;
 }
 
-/* line 146, ../../compass/sass/common.scss */
+/* line 150, ../../compass/sass/common.scss */
 .ag6 {
   height: 20em;
   background-color: #f09671;
 }
 
-/* line 151, ../../compass/sass/common.scss */
+/* line 155, ../../compass/sass/common.scss */
 .ag7 {
   background-color: #f6d784;
 }
 
-/* line 155, ../../compass/sass/common.scss */
+/* line 159, ../../compass/sass/common.scss */
 .ag10 {
   background-color: #ea9fc3;
 }
@@ -247,11 +251,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /**
  * Text Styles
  */
-/* line 176, ../../compass/sass/common.scss */
+/* line 180, ../../compass/sass/common.scss */
 #vertical-center {
   padding: 0;
 }
-/* line 179, ../../compass/sass/common.scss */
+/* line 183, ../../compass/sass/common.scss */
 #vertical-center li {
   background: #CCC;
   width: 18em;
@@ -269,19 +273,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   justify-content: center;
 }
 
-/* line 193, ../../compass/sass/common.scss */
+/* line 197, ../../compass/sass/common.scss */
 .opacity {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
   opacity: 0.9;
 }
 
-/* line 197, ../../compass/sass/common.scss */
+/* line 201, ../../compass/sass/common.scss */
 .opacity-high {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
 
-/* line 201, ../../compass/sass/common.scss */
+/* line 205, ../../compass/sass/common.scss */
 .border-radius-red {
   width: 125px;
   height: 125px;
@@ -291,27 +295,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 5px;
 }
 
-/* line 210, ../../compass/sass/common.scss */
+/* line 214, ../../compass/sass/common.scss */
 .border-radius {
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
   border-radius: 15px;
 }
 
-/* line 214, ../../compass/sass/common.scss */
+/* line 218, ../../compass/sass/common.scss */
 .status-box {
   height: 15em;
   width: 18em;
   border: red 1px solid;
 }
 
-/* line 222, ../../compass/sass/common.scss */
+/* line 226, ../../compass/sass/common.scss */
 #content {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 226, ../../compass/sass/common.scss */
+/* line 230, ../../compass/sass/common.scss */
 .title {
   border: blue 1px solid;
   color: white;
@@ -319,13 +323,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 18em;
 }
 
-/* line 233, ../../compass/sass/common.scss */
+/* line 237, ../../compass/sass/common.scss */
 .header {
   width: 100%;
   height: 100px;
 }
 
-/* line 238, ../../compass/sass/common.scss */
+/* line 242, ../../compass/sass/common.scss */
 .topbar {
   height: 27px;
   background: url(/images/topbar-bg.jpg) 0 0 repeat-x;
@@ -333,7 +337,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   overflow: hidden;
 }
 
-/* line 245, ../../compass/sass/common.scss */
+/* line 249, ../../compass/sass/common.scss */
 .login-wrap {
   position: relative;
   width: 980px;
@@ -342,7 +346,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   overflow: hidden;
 }
 
-/* line 253, ../../compass/sass/common.scss */
+/* line 257, ../../compass/sass/common.scss */
 .login-info {
   position: absolute;
   top: 0;
@@ -351,46 +355,46 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 27px;
 }
 
-/* line 261, ../../compass/sass/common.scss */
+/* line 265, ../../compass/sass/common.scss */
 .login-info span, .login-info a {
   display: inline-block;
   color: #c1c1c1;
 }
 
-/* line 266, ../../compass/sass/common.scss */
+/* line 270, ../../compass/sass/common.scss */
 .login-info a {
   text-decoration: none;
 }
 
-/* line 270, ../../compass/sass/common.scss */
+/* line 274, ../../compass/sass/common.scss */
 .login-info a {
   display: inline-block;
   color: #c1c1c1;
 }
 
-/* line 275, ../../compass/sass/common.scss */
+/* line 279, ../../compass/sass/common.scss */
 .jump-area {
   margin-right: 30px;
 }
 
-/* line 279, ../../compass/sass/common.scss */
+/* line 283, ../../compass/sass/common.scss */
 .header-message {
   margin-right: 30px;
 }
 
-/* line 283, ../../compass/sass/common.scss */
+/* line 287, ../../compass/sass/common.scss */
 .channelbar {
   height: 71px;
   background: url(/images/channel-bg.jpg) 0 0 repeat-x;
   border-top: 1px solid #5b5e6c;
 }
 
-/* line 290, ../../compass/sass/common.scss */
+/* line 294, ../../compass/sass/common.scss */
 * {
   box-sizing: content-box;
 }
 
-/* line 294, ../../compass/sass/common.scss */
+/* line 298, ../../compass/sass/common.scss */
 .cnavbar {
   float: left;
   display: inline;
@@ -398,17 +402,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   overflow: hidden;
 }
 
-/* line 301, ../../compass/sass/common.scss */
+/* line 305, ../../compass/sass/common.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 305, ../../compass/sass/common.scss */
+/* line 309, ../../compass/sass/common.scss */
 .cnavbar li {
   float: left;
 }
 
-/* line 309, ../../compass/sass/common.scss */
+/* line 313, ../../compass/sass/common.scss */
 .cnavbar li a {
   display: block;
   color: #fff;
@@ -419,17 +423,17 @@ ol, ul {
   padding: 0 15px;
 }
 
-/* line 319, ../../compass/sass/common.scss */
+/* line 323, ../../compass/sass/common.scss */
 .cnavbar li.selected a {
   color: #65a2fc;
 }
 
-/* line 323, ../../compass/sass/common.scss */
+/* line 327, ../../compass/sass/common.scss */
 .cnavbar li.selected {
   background-color: #2e303d;
 }
 
-/* line 327, ../../compass/sass/common.scss */
+/* line 331, ../../compass/sass/common.scss */
 .channelbar-wrap {
   position: relative;
   width: 980px;
@@ -438,7 +442,7 @@ ol, ul {
   box-sizing: content-box;
 }
 
-/* line 336, ../../compass/sass/common.scss */
+/* line 340, ../../compass/sass/common.scss */
 .logo {
   margin-top: 6px;
   float: left;
@@ -447,7 +451,7 @@ ol, ul {
   padding-left: 20px;
 }
 
-/* line 344, ../../compass/sass/common.scss */
+/* line 348, ../../compass/sass/common.scss */
 .shoot {
   position: absolute;
   top: 21px;
@@ -465,7 +469,7 @@ ol, ul {
   cursor: pointer;
 }
 
-/* line 361, ../../compass/sass/common.scss */
+/* line 365, ../../compass/sass/common.scss */
 .footerbg {
   height: 323px;
   background-color: #313e53;
@@ -473,7 +477,7 @@ ol, ul {
   background-repeat: repeat-x;
 }
 
-/* line 368, ../../compass/sass/common.scss */
+/* line 372, ../../compass/sass/common.scss */
 .footer {
   width: 1000px;
   font-size: 14px;
@@ -483,26 +487,26 @@ ol, ul {
   color: #a5aab3;
 }
 
-/* line 377, ../../compass/sass/common.scss */
+/* line 381, ../../compass/sass/common.scss */
 .footer_menu2 {
   font-size: 20px;
   margin-bottom: 30px;
 }
 
-/* line 382, ../../compass/sass/common.scss */
+/* line 386, ../../compass/sass/common.scss */
 .f_l {
   float: left;
   width: 140px;
 }
 
-/* line 387, ../../compass/sass/common.scss */
+/* line 391, ../../compass/sass/common.scss */
 .f_l_2 {
   float: left;
   text-align: left;
   width: 405px;
 }
 
-/* line 393, ../../compass/sass/common.scss */
+/* line 397, ../../compass/sass/common.scss */
 .f_l_3 {
   float: left;
   width: 140px;
@@ -510,12 +514,12 @@ ol, ul {
   margin-left: 15px;
 }
 
-/* line 400, ../../compass/sass/common.scss */
+/* line 404, ../../compass/sass/common.scss */
 .clear {
   clear: both;
 }
 
-/* line 404, ../../compass/sass/common.scss */
+/* line 408, ../../compass/sass/common.scss */
 .footerdiv1 {
   float: left;
   width: 300px;
@@ -524,7 +528,7 @@ ol, ul {
   border-right-color: #384559;
 }
 
-/* line 412, ../../compass/sass/common.scss */
+/* line 416, ../../compass/sass/common.scss */
 .footerdiv2 {
   float: right;
   width: 625px;
@@ -534,21 +538,21 @@ ol, ul {
   background-position: left bottom;
 }
 
-/* line 421, ../../compass/sass/common.scss */
+/* line 425, ../../compass/sass/common.scss */
 .footerdiv3 {
   text-align: center;
   margin-top: 45px;
   margin-bottom: 0px;
 }
 
-/* line 427, ../../compass/sass/common.scss */
+/* line 431, ../../compass/sass/common.scss */
 .footer_menu {
   font-size: 20px;
   margin-bottom: 30px;
   margin-left: -25px;
 }
 
-/* line 433, ../../compass/sass/common.scss */
+/* line 437, ../../compass/sass/common.scss */
 .bottombar {
   height: 27px;
   background: url(/images/topbar-bg.jpg) 0 0 repeat-x;
@@ -557,7 +561,7 @@ ol, ul {
   text-align: center;
 }
 
-/* line 441, ../../compass/sass/common.scss */
+/* line 445, ../../compass/sass/common.scss */
 .bottom-info {
   padding-top: 3px;
   position: relative;
@@ -568,7 +572,7 @@ ol, ul {
   overflow: hidden;
 }
 
-/* line 452, ../../compass/sass/common.scss */
+/* line 456, ../../compass/sass/common.scss */
 .banner {
   position: relative;
   width: 100%;
@@ -576,12 +580,12 @@ ol, ul {
   overflow: hidden;
 }
 
-/* line 459, ../../compass/sass/common.scss */
+/* line 463, ../../compass/sass/common.scss */
 .banner-container {
   background: url(/images/banner2s.jpg);
 }
 
-/* line 463, ../../compass/sass/common.scss */
+/* line 467, ../../compass/sass/common.scss */
 #bg-container {
   width: 100%;
   margin: 0 auto;
@@ -594,21 +598,21 @@ ol, ul {
 
 /********************************* CSS FROM SLY */
 /* Example wrapper */
-/* line 477, ../../compass/sass/common.scss */
+/* line 481, ../../compass/sass/common.scss */
 .wrap {
   position: relative;
   margin: 3em 0;
 }
 
 /* Frame */
-/* line 483, ../../compass/sass/common.scss */
+/* line 487, ../../compass/sass/common.scss */
 .frame {
   height: 270px;
   line-height: 250px;
   overflow: hidden;
 }
 
-/* line 489, ../../compass/sass/common.scss */
+/* line 493, ../../compass/sass/common.scss */
 .frame ul {
   list-style: none;
   margin: 0;
@@ -617,7 +621,7 @@ ol, ul {
   font-size: 50px;
 }
 
-/* line 497, ../../compass/sass/common.scss */
+/* line 501, ../../compass/sass/common.scss */
 .frame ul li {
   float: left;
   width: 357px;
@@ -630,14 +634,14 @@ ol, ul {
   cursor: pointer;
 }
 
-/* line 509, ../../compass/sass/common.scss */
+/* line 513, ../../compass/sass/common.scss */
 .frame ul li.active {
   color: #fff;
   background: #a03232;
 }
 
 /* Scrollbar */
-/* line 516, ../../compass/sass/common.scss */
+/* line 520, ../../compass/sass/common.scss */
 .scrollbar .handle {
   width: 100px;
   height: 100%;
@@ -645,7 +649,7 @@ ol, ul {
   cursor: pointer;
 }
 
-/* line 523, ../../compass/sass/common.scss */
+/* line 527, ../../compass/sass/common.scss */
 .scrollbar .handle .mousearea {
   position: absolute;
   top: -9px;
@@ -655,7 +659,7 @@ ol, ul {
 }
 
 /* Pages */
-/* line 532, ../../compass/sass/common.scss */
+/* line 536, ../../compass/sass/common.scss */
 .pages {
   list-style: none;
   margin: 20px 0;
@@ -663,7 +667,7 @@ ol, ul {
   text-align: center;
 }
 
-/* line 540, ../../compass/sass/common.scss */
+/* line 544, ../../compass/sass/common.scss */
 .pages li {
   display: inline-block;
   width: 14px;
@@ -678,23 +682,23 @@ ol, ul {
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
 }
 
-/* line 555, ../../compass/sass/common.scss */
+/* line 559, ../../compass/sass/common.scss */
 .pages li:hover {
   background: #aaa;
 }
 
-/* line 559, ../../compass/sass/common.scss */
+/* line 563, ../../compass/sass/common.scss */
 .pages li.active {
   background: #666;
 }
 
-/* line 563, ../../compass/sass/common.scss */
+/* line 567, ../../compass/sass/common.scss */
 .left-menu {
   width: 150px;
   float: left;
 }
 
-/* line 575, ../../compass/sass/common.scss */
+/* line 579, ../../compass/sass/common.scss */
 .sidebar .item {
   width: 167px;
   height: 14em;
@@ -705,84 +709,84 @@ ol, ul {
   cursor: pointer;
 }
 
-/* line 589, ../../compass/sass/common.scss */
+/* line 593, ../../compass/sass/common.scss */
 .sidebar .item-red {
   background: #a03232;
   color: white;
 }
 
-/* line 595, ../../compass/sass/common.scss */
+/* line 599, ../../compass/sass/common.scss */
 .sidebar .item-grey {
   background: white;
   color: black;
 }
 
-/* line 600, ../../compass/sass/common.scss */
+/* line 604, ../../compass/sass/common.scss */
 .sidebar .item-grey:hover {
   background: #a03232;
   color: white;
 }
 
-/* line 605, ../../compass/sass/common.scss */
+/* line 609, ../../compass/sass/common.scss */
 .sidebar .item-black:hover {
   background: #a03232;
   color: white;
 }
 
-/* line 610, ../../compass/sass/common.scss */
+/* line 614, ../../compass/sass/common.scss */
 .sidebar .item-red:hover {
   background: #ddd;
   color: black;
 }
 
-/* line 615, ../../compass/sass/common.scss */
+/* line 619, ../../compass/sass/common.scss */
 .sidebar h2 {
   margin-top: 2.5em;
 }
 
-/* line 619, ../../compass/sass/common.scss */
+/* line 623, ../../compass/sass/common.scss */
 .remodal input {
   margin-bottom: 15px;
 }
 
-/* line 624, ../../compass/sass/common.scss */
+/* line 628, ../../compass/sass/common.scss */
 .sidebar .item-black {
   background: black;
   color: #ddd;
 }
 
 /* Controls */
-/* line 637, ../../compass/sass/common.scss */
+/* line 641, ../../compass/sass/common.scss */
 .controls {
   margin: 25px 0;
   text-align: center;
 }
 
 /* One Item Per Frame example*/
-/* line 643, ../../compass/sass/common.scss */
+/* line 647, ../../compass/sass/common.scss */
 .oneperframe {
   height: 300px;
   line-height: 300px;
 }
 
-/* line 648, ../../compass/sass/common.scss */
+/* line 652, ../../compass/sass/common.scss */
 .oneperframe ul li {
   width: 1140px;
 }
 
-/* line 652, ../../compass/sass/common.scss */
+/* line 656, ../../compass/sass/common.scss */
 .oneperframe ul li.active {
   background: #333;
 }
 
 /*********************************END OF CSS FROM SLY */
 /*********************************Start OF grids FROM ed-lea */
-/* line 659, ../../compass/sass/common.scss */
+/* line 663, ../../compass/sass/common.scss */
 .Collage {
   padding: 15px;
 }
 
-/* line 663, ../../compass/sass/common.scss */
+/* line 667, ../../compass/sass/common.scss */
 .Collage img {
   margin: 0;
   padding: 0;
@@ -793,7 +797,7 @@ ol, ul {
   border: 6px solid grey;
 }
 
-/* line 674, ../../compass/sass/common.scss */
+/* line 678, ../../compass/sass/common.scss */
 .Collage .div2by2 {
   width: 30em;
   height: 30em;
@@ -806,21 +810,21 @@ ol, ul {
   border: 6px solid grey;
 }
 
-/* line 687, ../../compass/sass/common.scss */
+/* line 691, ../../compass/sass/common.scss */
 #news-container {
   width: 100%;
   margin-left: 1em;
   margin-right: 1em;
 }
 
-/* line 695, ../../compass/sass/common.scss */
+/* line 699, ../../compass/sass/common.scss */
 .item {
   background: #87c787;
   width: 220px;
   height: 220px;
 }
 
-/* line 702, ../../compass/sass/common.scss */
+/* line 706, ../../compass/sass/common.scss */
 .Image_Wrapper {
   /* to get the fade in effect, set opacity to 0 on the first element within the gallery area */
   opacity: 0;
@@ -832,14 +836,14 @@ ol, ul {
   border-radius: 3px;
 }
 
-/* line 714, ../../compass/sass/common.scss */
+/* line 718, ../../compass/sass/common.scss */
 .Caption {
   font-size: 14px;
   font-weight: normal;
   font-family: arial;
 }
 
-/* line 719, ../../compass/sass/common.scss */
+/* line 723, ../../compass/sass/common.scss */
 .Caption_Content {
   /* padding:10px; */
   color: #FFF;
@@ -847,7 +851,7 @@ ol, ul {
 }
 
 /*********************************End OF grids FROM ed-lea */
-/* line 730, ../../compass/sass/common.scss */
+/* line 734, ../../compass/sass/common.scss */
 body, button {
   font-family: '微软雅黑', 'Microsoft Yahei', arial, 'Hiragino Sans GB', '宋体', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti;
   font-size: 12px;
