@@ -1,6 +1,177 @@
-@import "compass/css3.scss";
-@import "compass/css3";
-@import "compass/utilities";
+//@import "compass/css3.scss";
+//@import "compass/css3";
+//@import "compass/utilities";
+//@import "normalize";
+@import "compass";
+@import "susy";
+@import "compass/reset";
+
+
+$susy: (
+        columns: 12,
+        gutters: .1,
+        math: fluid,
+        output: float,
+        gutter-position: after
+);
+@include border-box-sizing;
+
+
+/**
+ * Styles for AG grids & Container
+ */
+
+.susycontainer {
+  @include container;
+  @include clearfix;
+//  @include show-grid(overlay);
+  background-color: black;
+//  padding: gutter(8);
+  padding-bottom: 10px;
+//  width:80%
+}
+
+
+.sidebar{
+  @include span(1 of 7 );
+
+}
+
+.hidden-container{
+   display:none;
+}
+
+
+
+
+.content-area{
+  @include span(6 of 7 last);
+
+}
+
+.ag{
+  text-align:center;
+  }
+
+.ag h2{
+  padding-top:3em;
+}
+
+.ag1 {
+//  @include gallery(1 of 8);
+  @include span(2 of 8);
+//  @include clearfix;
+//  margin-bottom: gutter(8);
+}
+
+.ag2 {
+  @include span(2 of 8);
+//  @include clearfix;
+}
+
+.ag3 {
+  @include span(2 of 9);
+  @include clearfix;
+  margin-bottom: gutter(4);
+  margin-right: gutter(4);
+}
+
+
+.ag4 {
+  @include span(4 of 9);
+  @include clearfix;
+  margin-bottom: gutter(4);
+  margin-right: gutter(4);
+}
+
+.ag2by2{
+  @include span(3 of 9);
+  @include clearfix;
+  height:20em;
+}
+
+.ag2by4{
+  @include span(6 of 9);
+  @include clearfix;
+  height:20em;
+}
+
+.ag-red{
+  background-color: #a03232
+}
+
+.ag-grey{
+  background-color: grey
+}
+
+
+.ag-orange{
+  background-color: orange
+}
+
+#news{
+ margin:0;
+ background-color:black;
+ border:2px solid white;
+ font-size:26px;
+ color:white;
+
+}
+
+#news ul{
+  margin:0;
+}
+
+#news li{
+  text-align:center;
+}
+
+
+.ag1, .ag3 {
+//  @include reset;
+  height:20em;
+  background-color: #71dad2;
+}
+
+.ag2 {
+  height:20em;
+  background-color: #a03232;
+}
+
+.ag4,.ag5,.ag8,.ag9 {
+  height:20em;
+  background-color: #f09671;
+}
+
+.ag6 {
+  height:20em;
+  background-color: #f09671;
+}
+
+.ag7 {
+  background-color: #f6d784;
+}
+
+.ag10 {
+  background-color: #ea9fc3;
+}
+
+/**
+ * Text Styles
+ */
+//.container h2 {
+//  text-align: center;
+//  font-size: 1rem;
+//  font-weight: normal;
+//  padding-top: 1.8rem;
+//  padding-bottom: 1.8rem;
+//}
+
+
+
+
+
+
 
 #vertical-center {
   padding: 0;
@@ -289,12 +460,15 @@ ol, ul {
   background: url(/images/banner2s.jpg);
 }
 
-.bg-container{
+#bg-container{
+//  background: url(/images/white_brick_wall1.png) 0 0 repeat-x;
   width: 100%;
   margin: 0 auto;
   overflow: auto;
   display: inline-block;
-
+  padding-bottom:20px;
+  min-height:800px;
+  padding-top:10px
 }
 
 /********************************* CSS FROM SLY */
@@ -393,13 +567,14 @@ ol, ul {
 }
 
 .right-area{
-  margin-left:160px;
+//  margin-left:160px;
+//  float:left
 
 }
 
-.left-menu .item {
+.sidebar .item {
 
-  width: 157px;
+  width: 167px;
   height: 14em;
 
   line-height:10em;
@@ -411,29 +586,48 @@ ol, ul {
 
 }
 
-.left-menu .item-red{
+.sidebar .item-red{
   background: #a03232;
   color: white;
 
 }
 
-.left-menu .item-grey{
-  background: grey;
-  color: #ddd;
-
+.sidebar .item-grey{
+  background: white;
+  color: black;
 }
 
-.left-menu h2{
+.sidebar .item-grey:hover{
+  background: #a03232;
+  color:white;
+}
+
+.sidebar .item-black:hover{
+  background: #a03232;
+  color:white;
+}
+
+.sidebar .item-red:hover{
+  background: #ddd;
+  color:black;
+}
+
+.sidebar h2{
   margin-top:2.5em;
 }
 
-.left-menu .item-black{
+.remodal input{
+  margin-bottom:15px;
+
+}
+
+.sidebar .item-black{
   background: black;
   color: #ddd;
 
 }
 
-.left-menu .title{
+.sidebar .title{
 
 }
 
@@ -463,7 +657,7 @@ ol, ul {
 
 /*********************************Start OF grids FROM ed-lea */
 .Collage{
-  padding:10px;
+  padding:15px;
 }
 
 .Collage img{
@@ -474,8 +668,36 @@ ol, ul {
   opacity:1;
 
   /*This is where you set the border you want for the image*/
-  border:6px solid #FFF;
+  border:6px solid grey;
 }
+
+.Collage .div2by2{
+  width:30em;
+  height:30em;
+  margin:0;
+  padding:0;
+  display:inline-block;
+  vertical-align:bottom;
+  opacity:1;
+
+  /*This is where you set the border you want for the image*/
+  border:6px solid grey;
+}
+
+#news-container {
+  width: 100%;
+  margin-left: 1em;
+  margin-right:1em;
+//  margin-bottom:2em;
+}
+
+
+.item {
+  background: rgb(135, 199, 135);
+  width: 220px;
+  height: 220px;
+}
+
 
 .Image_Wrapper{
   /* to get the fade in effect, set opacity to 0 on the first element within the gallery area */

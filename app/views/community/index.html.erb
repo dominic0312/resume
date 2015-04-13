@@ -3,6 +3,8 @@
 <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
 <link href="/stylesheets/transitions.css" rel="stylesheet">
+<link rel="stylesheet" href="/stylesheets/jquery.remodal.css">
+
 
 
 <div class="header">
@@ -31,7 +33,7 @@
         <li class="selected"><a href="/community">众筹社区</a></li>
         <li><a href="">我们的愿景</a></li>
       </ul>
-      <p class="shoot" id="js-shoot"></span>&nbsp&nbsp登录 / 注册</p>
+      <a data-remodal-target="modal"><p class="shoot" id="js-shoot"></span>&nbsp&nbsp登录 / 注册</p></a>
     </div>
   </div>
 </div>
@@ -64,53 +66,189 @@
 
 
 </div>
-<div id="bg-container" bg='/images/star.jpg'>
-  <div class="left-menu">
-    <div class="item item-red opacity-high">
+
+<div id="news">
+  <ul>
+    <li>资金涌向H版, 前海加速资金出海速度, 港股通首次突破限额</li>
+    <li>证监会: 加紧监管制度建设, 保证中小股民利益</li>
+    <li>自贸区将于6月份正式开幕，前海自贸区不设置围墙, 一大波水客正在靠近</li>
+  </ul>
+</div>
+
+<div id="bg-container" bg='/images/star.jpg' class="susycontainer">
+  <div class="sidebar">
+    <div class="item item-red opacity-high" onclick="showpage('news')">
       <h2>圈子</h2>
     </div>
-    <div class="item item-black opacity-high">
+    <div class="item item-black opacity-high shadow menu-button" onclick="showpage('views')">
       <h2>观点</h2>
     </div>
-    <div class="item item-grey opacity-high">
+    <div class="item item-grey opacity-high shadow" onclick="showpage('invest')">
       <h2>投资界</h2>
     </div>
   </div>
-  <div class="right-area">
-    <section class="Collage effect-parent">
-      <div class="Image_Wrapper" data-caption="This is some data <u>with</u>html in it">
-        <a><img src="/images/ffffff.gif"></a></div>
-      <div class="Image_Wrapper"><a><img src="/images/ffffff2.gif"></a></div>
-      <div class="Image_Wrapper" data-caption="This is some data <u>with</u>html in it. Also a really long sentence with a <a href='http://www.bbc.co.uk'>link</a> in it">
-        <a><img src="/images/ffffff2.gif"></a></div>
-      <div class="Image_Wrapper" data-caption="This is some data <u>with</u>html in it This is some data <u>with</u>html in it. Also a really long sentence with a <a href='http://www.bbc.co.uk'>link</a> in it This is some data <u>with</u>html in it. Also a really long sentence with a <a href='http://www.bbc.co.uk'>link</a> in it">
-        <a><img src="/images/ffffff3.gif"></a></div>
-      <div class="Image_Wrapper" data-caption="This is some data <u>with</u>html in it This is some data <u>with</u>html in it. Also a really long sentence with a <a href='http://www.bbc.co.uk'>link</a> in it">
-        <a><img src="/images/ffffff4.gif"></a></div>
-      <div class="Image_Wrapper" data-caption="This is some data <u>with</u>html in it">
-        <a><img src="/images/ffffff5.gif"></a></div>
-      <div class="Image_Wrapper" data-caption="This is some data <u>with</u>html in it This is some data <u>with</u>html in it. Also a really long sentence with a <a href='http://www.bbc.co.uk'>link</a> in it">
-        <a><img src="/images/ffffff6.gif"></a></div>
-      <div class="Image_Wrapper" data-caption="This is some data <u>with</u>html in it This is some data <u>with</u>html in it. Also a really long sentence with a <a href='http://www.bbc.co.uk'>link</a> in it">
-        <a><img src="/images/ffffff7.gif"></a></div>
-      <div class="Image_Wrapper" data-caption="This is some data <u>with</u>html in it">
-        <a><img src="/images/ffffff8.gif"></a></div>
-      <div class="Image_Wrapper" data-caption="This is some data <u>with</u>html in it">
-        <a><img src="/images/ffffff9.gif"></a></div>
-      <div class="Image_Wrapper"><a href="http://edlea.com"><img src="/images/ed-lea-dribbble-1.jpg"/></a></div>
-      <div class="Image_Wrapper"><a href="http://edlea.com"><img src="/images/ed-lea-dribbble-2.png"/></a></div>
-      <div class="Image_Wrapper"><a href="http://edlea.com"><img src="/images/ed-lea-dribbble-3.png"/></a></div>
-      <div class="Image_Wrapper"><a href="http://edlea.com"><img src="/images/ed-lea-dribbble-4.png"/></a></div>
-      <div class="Image_Wrapper"><a href="http://edlea.com"><img src="/images/ed-lea-dribbble-5.png"/></a></div>
-      <div class="Image_Wrapper"><a href="http://edlea.com"><img src="/images/ed-lea-dribbble-6.png"/></a></div>
-      <div class="Image_Wrapper"><a href="http://edlea.com"><img src="/images/ed-lea-dribbble-7.png"/></a></div>
-      <div class="Image_Wrapper"><a href="http://edlea.com"><img src="/images/ed-lea-dribbble-8.png"/></a></div>
+  <div class="content-area">
+    <div id="news-container" class="susycontainer view-container">
+      <div class="ag ag2by2 ag-grey" data-caption="观点详情">
+        <h2>圈子1</h2>
+      </div>
+      <!-- /ag1 -->
 
-    </section>
+      <!-- ag4 to ag7 are nested within ag2.-->
+      <div class="ag ag2by2 ag-grey" data-caption="观点详情">
+        <h2>圈子2</h2>
+      </div>
+      <!-- /ag2 -->
+
+      <div class="ag ag2by4 ag-red" data-caption="观点详情">
+        <h2>圈子3</h2>
+      </div>
+
+      <div class="ag ag2by4 ag-grey" data-caption="观点详情">
+        <h2>圈子4</h2>
+      </div>
+
+
+      <div class="ag ag2by2 ag-orange" data-caption="观点详情">
+        <h2>圈子5</h2>
+      </div>
+
+      <div class="ag ag2by2 ag-grey" data-caption="观点详情">
+        <h2>圈子6</h2>
+      </div>
+
+
+      <div class="ag ag2by2 ag-red" data-caption="观点详情">
+        <h2>圈子7</h2>
+      </div>
+    </div>
+
+    <div id="views-container" class="susycontainer view-container hidden-container">
+      <div class="ag ag3">
+        <h2>观点1</h2>
+      </div>
+      <!-- /ag1 -->
+
+      <!-- ag4 to ag7 are nested within ag2.-->
+      <div class="ag ag3">
+        <h2>观点2</h2>
+      </div>
+      <!-- /ag2 -->
+
+      <div class="ag ag3 ">
+        <h2>观点3</h2>
+      </div>
+
+      <div class="ag ag3 ">
+        <h2>观点4</h2>
+      </div>
+
+
+      <div class="ag ag3">
+        <h2>观点5</h2>
+      </div>
+
+      <div class="ag ag3">
+        <h2>观点6</h2>
+      </div>
+
+
+      <div class="ag ag3">
+        <h2>观点7</h2>
+      </div>
+    </div>
+
+
+    <div id="invest-container" class="susycontainer view-container hidden-container">
+      <div class="ag ag4">
+        <h2>新闻1</h2>
+      </div>
+      <!-- /ag1 -->
+
+      <!-- ag4 to ag7 are nested within ag2.-->
+      <div class="ag ag4">
+        <h2>新闻2</h2>
+      </div>
+      <!-- /ag2 -->
+
+      <div class="ag ag4 ">
+        <h2>新闻3</h2>
+      </div>
+
+      <div class="ag ag4 ">
+        <h2>新闻4</h2>
+      </div>
+
+
+      <div class="ag ag4">
+        <h2>新闻5</h2>
+      </div>
+
+      <div class="ag ag4">
+        <h2>新闻6</h2>
+      </div>
+
+
+      <div class="ag ag4">
+        <h2>新闻7</h2>
+      </div>
+    </div>
+
+
+    <!--<section class="Collage effect-parent">-->
+    <!--<div class="Image_Wrapper" data-caption="王石: 房地产众筹时机已经成熟">-->
+    <!--<a><img class="div2by2" src="/images/ffffff.gif"></a></div>-->
+    <!--<div class="Image_Wrapper"><a><img src="/images/ffffff2.gif"></a></div>-->
+    <!--<div class="Image_Wrapper" data-caption="This is some data <u>with</u>html in it. Also a really long sentence with a <a href='http://www.bbc.co.uk'>link</a> in it">-->
+    <!--<a><img src="/images/ffffff2.gif"></a></div>-->
+    <!--<div class="Image_Wrapper" data-caption="This is some data <u>with</u>html in it This is some data <u>with</u>html in it. Also a really long sentence with a <a href='http://www.bbc.co.uk'>link</a> in it This is some data <u>with</u>html in it. Also a really long sentence with a <a href='http://www.bbc.co.uk'>link</a> in it">-->
+    <!--<a><img src="/images/ffffff3.gif"></a></div>-->
+    <!--<div class="Image_Wrapper" data-caption="This is some data <u>with</u>html in it This is some data <u>with</u>html in it. Also a really long sentence with a <a href='http://www.bbc.co.uk'>link</a> in it">-->
+    <!--<a><img src="/images/ffffff4.gif"></a></div>-->
+    <!--<div class="Image_Wrapper" data-caption="This is some data <u>with</u>html in it">-->
+    <!--<a><img src="/images/ffffff5.gif"></a></div>-->
+    <!--<div class="Image_Wrapper" data-caption="This is some data <u>with</u>html in it This is some data <u>with</u>html in it. Also a really long sentence with a <a href='http://www.bbc.co.uk'>link</a> in it">-->
+    <!--<a><img src="/images/ffffff6.gif"></a></div>-->
+    <!--<div class="Image_Wrapper" data-caption="This is some data <u>with</u>html in it This is some data <u>with</u>html in it. Also a really long sentence with a <a href='http://www.bbc.co.uk'>link</a> in it">-->
+    <!--<a><img src="/images/ffffff7.gif"></a></div>-->
+    <!--<div class="Image_Wrapper" data-caption="This is some data <u>with</u>html in it">-->
+    <!--<a><img src="/images/ffffff8.gif"></a></div>-->
+    <!--<div class="Image_Wrapper" data-caption="This is some data <u>with</u>html in it">-->
+    <!--<a><img src="/images/ffffff9.gif"></a></div>-->
+    <!--<div class="Image_Wrapper"><a href="http://edlea.com"><img src="/images/ed-lea-dribbble-1.jpg"/></a></div>-->
+    <!--<div class="Image_Wrapper"><a href="http://edlea.com"><img src="/images/ed-lea-dribbble-2.png"/></a></div>-->
+    <!--<div class="Image_Wrapper"><a href="http://edlea.com"><img src="/images/ed-lea-dribbble-3.png"/></a></div>-->
+    <!--<div class="Image_Wrapper"><a href="http://edlea.com"><img src="/images/ed-lea-dribbble-4.png"/></a></div>-->
+    <!--<div class="Image_Wrapper"><a href="http://edlea.com"><img src="/images/ed-lea-dribbble-5.png"/></a></div>-->
+    <!--<div class="Image_Wrapper"><a href="http://edlea.com"><img src="/images/ed-lea-dribbble-6.png"/></a></div>-->
+    <!--<div class="Image_Wrapper"><a href="http://edlea.com"><img src="/images/ed-lea-dribbble-7.png"/></a></div>-->
+    <!--<div class="Image_Wrapper"><a href="http://edlea.com"><img src="/images/ed-lea-dribbble-8.png"/></a></div>-->
+
+    <!--</section>-->
 
 
   </div>
+
+  <div style="clear:both"></div>
 </div>
+<div class="remodal-bg opacity-high">
+
+</div>
+<div class="remodal" data-remodal-id="modal">
+  <h2>登录</h2>
+
+  <p>
+    <input name="username" placeholder="请输入您的用户名"/>
+    </br>
+    <input name="password" placeholder="请输入您的密码"/>
+  </p>
+  <br>
+  <a class="remodal-cancel" href="#">取消</a>
+  <a class="remodal-confirm" href="#">登入</a>
+</div>
+
+
+
 
 
 
@@ -130,13 +268,27 @@
 <script type="text/javascript" src="/javascripts/jquery.collagePlus.min.js"></script>
 <script type="text/javascript" src="/javascripts/jquery.removeWhitespace.min.js"></script>
 <script type="text/javascript" src="/javascripts/jquery.collageCaption.min.js"></script>
+<script src="/javascripts/jquery.remodal.min.js"></script>
+<script src="/javascripts/placeholdem.min.js"></script>
+<script src="/javascripts/freewall.js"></script>
+<script src="/javascripts/vticker.js"></script>
+<script src="/javascripts/realshadow.js"></script>
+<script src="/javascripts/knockout.js"></script>
+<script src="/javascripts/jquery.sliphover.min.js"></script>
+
+
 
 <!--<script type="text/javascript" src="/slick/slick.min.js"></script>-->
 <script>
-    $("#bg-container").MyFloatingBg({direction: 0, speed: 150});
-    //    $(document).ready(function () {
-    //        $(".single-item").slick();
-    //    });
+    //    $("#bg-container").MyFloatingBg({direction: 0, speed: 250});
+    $(document).ready(function () {
+        $("#news-container").show('fade');
+        $(".view-container").sliphover(
+                {target: '.ag',
+                    caption: 'data-caption'
+                    }
+        );
+    });
 
     var $frame = $('#centered');
     var $wrap = $frame.parent();
@@ -166,37 +318,94 @@
     });
 
 
-    $(window).load(function () {
-        $(document).ready(function(){
-            collage();
-            $('.Collage').collageCaption();
-        });
+
+    var $singleframe = $('#oneperframe');
+    var $wrap  = $singleframe.parent();
+
+    // Call Sly on frame
+    $slingleframe.sly({
+        horizontal: 1,
+        itemNav: 'forceCentered',
+        smart: 1,
+        activateMiddle: 1,
+        mouseDragging: 1,
+        touchDragging: 1,
+        releaseSwing: 1,
+        startAt: 0,
+        scrollBar: $wrap.find('.scrollbar'),
+        scrollBy: 1,
+        speed: 300,
+        elasticBounds: 1,
+        easing: 'easeOutExpo',
+        dragHandle: 1,
+        dynamicHandle: 1,
+        clickBar: 1,
+
+        // Buttons
+        prev: $wrap.find('.prev'),
+        next: $wrap.find('.next')
     });
 
 
-    // Here we apply the actual CollagePlus plugin
-    function collage() {
+//    var wall = new freewall("#news-container");
+//    wall.fitWidth();
+//    wall.reset({
+//        selector: '.item',
+//        draggable: true,
+//        animate: true,
+//        delay: 2
+//    });
 
-        $('.Collage').removeWhitespace().collagePlus(
-                {
-                    'fadeSpeed'     : 3000,
-                    'targetHeight'  : 200,
-                    'effect'        : 'default',
-                    'direction'     : 'vertical'
-                }
-        );
-    };
 
-    // This is just for the case that the browser window is resized
-    var resizeTimer = null;
-    $(window).bind('resize', function() {
-        // hide all the images until we resize them
-        $('.Collage .Image_Wrapper').css("opacity", 0);
-        // set a timer to re-apply the plugin
-        if (resizeTimer) clearTimeout(resizeTimer);
-        resizeTimer = setTimeout(collage, 200);
-    });
+    //    $(window).load(function () {
+    //        $(document).ready(function(){
+    //            collage();
+    //            $('.Collage').collageCaption();
+    //        });
+    //    });
+    //
+    //
+    //    // Here we apply the actual CollagePlus plugin
+    //    function collage() {
+    //
+    //        $('.Collage').removeWhitespace().collagePlus(
+    //                {
+    //                    'fadeSpeed'     : 3000,
+    //                    'targetHeight'  : 200,
+    //                    'effect'        : 'default',
+    //                    'direction'     : 'vertical'
+    //                }
+    //        );
+    //    };
+    //
+    //    // This is just for the case that the browser window is resized
+    //    var resizeTimer = null;
+    //    $(window).bind('resize', function() {
+    //        // hide all the images until we resize them
+    //        $('.Collage .Image_Wrapper').css("opacity", 0);
+    //        // set a timer to re-apply the plugin
+    //        if (resizeTimer) clearTimeout(resizeTimer);
+    //        resizeTimer = setTimeout(collage, 200);
+    //    });
 
+    Placeholdem(document.querySelectorAll('[placeholder]'));
+    $('#news').vTicker();
+    //$('.shadow').realshadow(
+    //        {
+    //
+    //            followMouse: false,
+    //            angle: 3.14 / 4 ,
+    //            type: 'drop'
+    //
+    //        }
+    //
+    //);
+
+    function showpage(e) {
+        $(".view-container").hide('fade');
+        $("#" + e + "-container").show('fade');
+    }
+    ;
 
 
 </script>
