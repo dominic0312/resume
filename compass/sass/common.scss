@@ -46,7 +46,23 @@ $susy: (
 
 .content-area{
   @include span(6 of 7 last);
+}
 
+
+
+.content-box{
+  @include span(7 of 9);
+  height:80em;
+}
+
+.right-bar{
+  @include span(2 of 9 last);
+  height:80em;
+}
+
+.comment-area{
+  @include span(9 of 9 last);
+  height:10em;
 }
 
 .ag{
@@ -100,8 +116,22 @@ $susy: (
   height:20em;
 }
 
+.agfull{
+  @include span(9 of 9);
+  @include clearfix;
+//  margin-bottom: gutter(8);
+//  margin-right: gutter(8);
+  height:80em;
+}
+
+
+
 .ag-red{
   background-color: #a03232
+}
+
+.ag-white{
+  background-color: #ffffff
 }
 
 .ag-grey{
@@ -464,6 +494,8 @@ ol, ul {
   background: url(/images/banner2s.jpg);
 }
 
+
+
 #bg-container{
 //  background: url(/images/white_brick_wall1.png) 0 0 repeat-x;
   width: 100%;
@@ -481,6 +513,16 @@ ol, ul {
 .wrap {
   position: relative;
   margin: 3em 0;
+}
+
+.wrap h1{
+  font-size:60px;
+  color:white;
+}
+
+.wrap h3{
+  font-size:40px;
+  color:white;
 }
 
 /* Frame */
@@ -633,6 +675,11 @@ ol, ul {
 
 .sidebar .title{
 
+}
+
+
+.sidebar h2{
+  margin-top:2.5em;
 }
 
 

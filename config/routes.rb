@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   get 'kick' => 'kick#index'
   get 'community' => 'community#index'
+  get 'community-list' => 'community#list'
+  get 'article' => 'community#article'
   root 'home#resume'
 
   # Example of regular route:

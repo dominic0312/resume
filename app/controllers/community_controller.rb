@@ -3,4 +3,13 @@ class CommunityController < ApplicationController
   def index
 
   end
+
+
+  def list
+
+  end
+
+  def article
+
+  end
 end
