@@ -43,6 +43,17 @@ $susy: (
 
 
 
+.section-title{
+  background-color: grey;
+  @include span(1 of 7);
+  margin-bottom: gutter(8);
+  margin-left: gutter(3);
+  height:5em
+}
+
+.main-content-area{
+  @include span(7 of 7 last);
+}
 
 .content-area{
   @include span(6 of 7 last);
@@ -114,6 +125,23 @@ $susy: (
   margin-bottom: gutter(8);
   margin-right: gutter(8);
   height:20em;
+}
+
+.ag4by4{
+  @include span(4 of 9);
+  @include clearfix;
+  margin-bottom: gutter(8);
+  margin-right: gutter(8);
+  height:30em;
+}
+
+
+.ag4by1{
+  @include span(2 of 12);
+  @include clearfix;
+  margin-bottom: gutter(8);
+  margin-right: gutter(8);
+  height:15em;
 }
 
 .agfull{

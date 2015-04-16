@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'community' => 'community#index'
   get 'community-list' => 'community#list'
   get 'article' => 'community#article'
+  get 'homepage' => 'community#home'
   root 'home#resume'
 
   # Example of regular route:
