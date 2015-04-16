@@ -63,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/community/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="9.891641" vertical-offset="0" max-vertical-offset="6570">
+            <state vertical-scroll-proportion="-266.25" vertical-offset="0" max-vertical-offset="6570">
               <caret line="426" column="55" selection-start-line="426" selection-start-column="55" selection-end-line="426" selection-end-column="55" />
               <folding>
                 <marker date="1429170429000" expanded="true" signature="446:1438" placeholder="..." />
@@ -104,6 +104,16 @@
                 <marker date="1429170429000" expanded="true" signature="11080:11273" placeholder="//..." />
                 <marker date="1429170429000" expanded="true" signature="11300:11398" placeholder="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/community/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6733746" vertical-offset="0" max-vertical-offset="6240">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -170,7 +180,6 @@
         <option value="$PROJECT_DIR$/public/javascripts/realshadow.js" />
         <option value="$PROJECT_DIR$/public/javascripts/knockout.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/common.css" />
-        <option value="$PROJECT_DIR$/app/views/community/index.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/community_controller.rb" />
         <option value="$PROJECT_DIR$/compass/sass/common.scss" />
@@ -178,6 +187,7 @@
         <option value="$PROJECT_DIR$/app/views/community/list.html.erb" />
         <option value="$PROJECT_DIR$/public/stylesheets/animate.css" />
         <option value="$PROJECT_DIR$/app/views/community/home.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/community/index.html.erb" />
       </list>
     </option>
   </component>
@@ -279,6 +289,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -769,29 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/community/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6502242" vertical-offset="0" max-vertical-offset="6240">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <marker date="1429078058000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429078058000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429078058000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429078058000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429078058000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429078058000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429078058000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429078058000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429078058000" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1429078058000" expanded="true" signature="-1:-1" placeholder="{&quot;horizontal&quot;: 1...}" />
-            <marker date="1429078058000" expanded="true" signature="-1:-1" placeholder="{&quot;selector&quot;: '.item'...}" />
-            <marker date="1429078058000" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1429078058000" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1429078058000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.1538463" vertical-offset="2943" max-vertical-offset="14445">
@@ -866,7 +907,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/community/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.891641" vertical-offset="0" max-vertical-offset="6570">
+        <state vertical-scroll-proportion="-266.25" vertical-offset="0" max-vertical-offset="6570">
           <caret line="426" column="55" selection-start-line="426" selection-start-column="55" selection-end-line="426" selection-end-column="55" />
           <folding>
             <marker date="1429170429000" expanded="true" signature="446:1438" placeholder="..." />
@@ -904,6 +945,14 @@
             <marker date="1429170429000" expanded="true" signature="11080:11273" placeholder="//..." />
             <marker date="1429170429000" expanded="true" signature="11300:11398" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/community/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6733746" vertical-offset="0" max-vertical-offset="6240">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
